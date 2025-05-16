@@ -100,6 +100,15 @@ body {
     transition: all 0.3s ease;
 }
 
+footer a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 480px) {
     .card {
         width: 90%;
